@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rabbit Pasop – уютный отель для отдыха в Казахстане</title>
+    <meta
+      name="description"
+      content="Отель Rabbit Pasop – это комфортные номера, отличный сервис и удобное расположение. Идеально для отдыха и деловых поездок в Казахстане. Забронируйте номер уже сегодня!"
+    />
+    <link rel="shortcut icon" href="../img/favicon.png" type="image/png" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="logo">
+          <h1>Rabbit Pasop</h1>
+        </div>
+        <nav class="desktop-nav">
+          <ul>
+            <li><a href="../index.html">Главная</a></li>
+            <li><a href="rooms.html">Номера</a></li>
+            <li><a href="about.html">О нас</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="contact.html">Контакты</a></li>
+          </ul>
+        </nav>
+        <div class="burger-menu">
+          <div class="burger-icon">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </div>
+      <nav class="mobile-nav">
+        <ul>
+          <li><a href="../index.html">Главная</a></li>
+          <li><a href="rooms.html">Номера</a></li>
+          <li><a href="about.html">О нас</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="contact.html">Контакты</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="reach-us">
+      <div class="container">
+        <h2 class="reach-heading">Контакты</h2>
+        <div class="reach-container">
+          <div class="details-block">
+            <h3 class="details-title">Наши контакты</h3>
+            <ul class="details-list">
+              <li class="details-item">
+                <span class="details-icon">📍</span>
+                <span class="details-text"
+                  >ул. Абая 123, г. Алматы, 050000, Казахстан</span
+                >
+              </li>
+              <li class="details-item">
+                <span class="details-icon">📱</span>
+                <span class="details-text">+7 (727) 123-45-67</span>
+              </li>
+              <li class="details-item">
+                <span class="details-icon">✉️</span>
+                <span class="details-text">info@rabbitpasop.kz</span>
+              </li>
+              <li class="details-item">
+                <span class="details-icon">⏰</span>
+                <span class="details-text"
+                  >Регистрация: 14:00 - 12:00<br />Ресепшн: круглосуточно</span
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="inquiry-form" id="inquiry-form">
+            <h3 class="inquiry-title">Напишите нам</h3>
+            <form id="inquiryForm">
+              <div class="form-row">
+                <div class="form-col">
+                  <input
+                    type="text"
+                    id="name"
+                    class="inquiry-input"
+                    placeholder="Ваше имя"
+                    required
+                  />
+                </div>
+                <div class="form-col">
+                  <input
+                    type="email"
+                    id="email"
+                    class="inquiry-input"
+                    placeholder="Ваш email"
+                    required
+                  />
+                </div>
+              </div>
+              <input
+                type="tel"
+                id="contactPhone"
+                class="inquiry-input"
+                placeholder="Номер телефона"
+                required
+              />
+              <textarea
+                id="message"
+                class="inquiry-textarea"
+                placeholder="Ваше сообщение"
+                required
+              ></textarea>
+              <button type="submit" class="inquiry-button">
+                Отправить сообщение
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="modal" id="thankYouModal">
+      <div class="modal-content">
+        <h3 class="modal-title">Спасибо за заявку!</h3>
+        <p class="modal-text">
+          Наш менеджер свяжется с вами в ближайшее время.
+        </p>
+        <button class="modal-btn" id="closeModal">Закрыть</button>
+      </div>
+    </div>
+
+    <footer id="contacts">
+      <div class="container">
+        <div class="footer-content">
+          <div class="copyright">
+            <p>&copy; 2025 Rabbit Pasop. Все права защищены.</p>
+          </div>
+          <div class="contact-info">
+            <p>Адрес: г. Алматы, ул. Достык, 123</p>
+            <p>Email: info@rabbit-pasop.kz</p>
+            <p>Телефон: +7 (727) 123-45-67</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="../js/main.js"></script>
+  </body>
+</html>
