@@ -1222,9 +1222,9 @@ i{
     }
 }
 @media (max-width: 480px) {
-    .hero{
+/*     .hero{
         height: 50vh;
-    }
+    } */
     .hero-content{
         padding: 0;
     }
